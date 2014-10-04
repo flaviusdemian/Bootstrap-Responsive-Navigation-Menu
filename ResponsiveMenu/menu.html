@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>menu test</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/menu.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+</head>
+<body>
+
+    <div role="navigation" class="navbar navbar-inverse navbar-embossed menu" role="navigation">
+        <!--mobile part-->
+        <div class="navbar-header">
+            <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!--desktop and tablet part-->
+        <div class="navbar-collapse collapse" style="height: 1px;">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="menu-item"><a href="/">Home</a></li>
+                <li class="menu-item active"><a href="#">Regular link</a></li>
+                <li class="menu-item dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle" id="master">Dropdown <b class="caret"></b></a>
+                    <ul class="dropdown-menu" id="menu1">
+                        <li class="menu-item">
+                            <a href="#">2-level Menu <i class="icon-arrow-right"></i></a>
+                        </li>
+                        <li class="menu-item"><a href="#">Another action</a></li>
+                        <li class="menu-item"><a href="#">Something else here</a></li>
+                        <li class="menu-item divider"></li>
+                        <li class="menu-item"><a href="#">Separated link</a></li>
+                    </ul>
+                <li class="menu-item dropdown">
+                    <a href="#">Menu</a>
+                </li>
+                <li class="menu-item dropdown">
+                    <a href="#">Menu</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
